@@ -1,0 +1,130 @@
+body {
+    font-family: 'Montserrat', Arial, sans-serif;
+    background: #f4f6fa;
+    margin: 0;
+}
+.app-title {
+    text-align: center;
+    font-size: 2.7rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    color: #12c48b;
+    margin-top: 38px;
+    margin-bottom: 14px;
+    font-family: 'Montserrat', Arial, sans-serif;
+}
+.container {
+    max-width: 900px;
+    margin: 60px auto;
+    background: #fff;
+    border-radius: 24px;
+    box-shadow: 0 8px 40px rgba(0,0,0,0.14);
+    display: flex;
+    overflow: hidden;
+}
+
+.left-pane {
+    background: #ffe100;
+    flex: 1 1 40%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 32px;
+}
+.avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #fff;
+    overflow: hidden;
+    margin-bottom: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 6px solid #fff;
+}
+.avatar img {
+    width: 100px;
+    height: 100px;
+}
+.left-pane h2 {
+    font-size: 2rem;
+    margin-bottom: 18px;
+    color: #262626;
+    font-weight: 700;
+}
+.left-pane p {
+    color: #333;
+    font-size: 1.1rem;
+    margin-bottom: 18px;
+}
+.right-pane {
+    flex: 1 1 60%;
+    padding: 48px 56px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+}
+.form-row {
+    display: flex;
+    gap: 24px;
+}
+.input-group {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+label {
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: #222;
+}
+input, select {
+    padding: 10px 14px;
+    border-radius: 8px;
+    border: 1px solid #d0d6e0;
+    font-family: inherit;
+    font-size: 1rem;
+    transition: border 0.2s;
+}
+input:focus, select:focus {
+    border: 1.5px solid #ffe100;
+    outline: none;
+}
+.gender-group, .test-group {
+    display: flex;
+    gap: 16px;
+}
+.btn-row {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.btn {
+    padding: 12px 25px;
+    border-radius: 8px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.btn-cancel {
+    background: #f0f0f0;
+    color: #666;
+    box-shadow: none;
+}
+.btn-save {
+    background: #12c48b;
+    color: #fff;
+    box-shadow: 0 2px 6px rgba(18,196,139,0.18);
+}
+.prediction {
+    font-weight: bold;
+    color: #12c48b;
+    margin-top: 16px;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+}
